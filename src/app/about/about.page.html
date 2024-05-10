@@ -1,0 +1,19 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>About Us</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">About Us</ion-title>
+    </ion-toolbar>
+    <p>This app is a movie-review app.</p>
+    <br>
+    <p>You are now able to freely review movies. Let your friends know how good (or most of the time how bad it is). Let the director know, and raise your voice!</p>
+  </ion-header>
+
+  <ion-button (click)="gotoHome()">Home</ion-button>
+  <ion-button (click)="gotoReview()">Review</ion-button>
+</ion-content>
